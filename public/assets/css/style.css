@@ -1,0 +1,43 @@
+body{
+  background: url('https://images.unsplash.com/photo-1516905041604-7935af78f572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b618a1c3c243562f0859ce917980bbd6&auto=format&fit=crop&w=2550&q=80') no-repeat;
+  background-size: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+.articleBody{
+  height: 240px;
+  font-size: 20px;
+  overflow-y: scroll;
+  line-height: 150%;
+}
+
+#nameComment{
+  /*border-bottom: 2px solid #ec407a;*/
+  font-weight: bold;
+  background: #42a5f5;
+  color: darkblue;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: blue;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid blue;
+
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: blue;
+}

@@ -1,6 +1,11 @@
 
 // Madison Kalivoda | MongoDB-WebScraper
+/*
 
+$(document).on("click", "#scrape", function () {
+    window.location.replace("/scrape");
+
+});
 $(document).ready(function () {
 
     // Event handler to delete a note 
@@ -24,4 +29,4 @@ $(document).ready(function () {
         // Prevent default
         return false;
     });
-});
+});*/
