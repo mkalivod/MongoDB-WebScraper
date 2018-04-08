@@ -1,7 +1,10 @@
-// Node Dependencies
+// Madison Kalivoda | MongoDB-WebScraper
+
+// Dependencies
 var express = require('express');
 var router = express.Router();
 var path = require('path');
+
 var request = require('request'); // for web-scraping
 var cheerio = require('cheerio'); // for web-scraping
 
